@@ -1,33 +1,32 @@
 # 欢迎来我的站点！
-这是一个测试页面。66
+这是一个测试页面:100:
+
+## 哈啰哈啰!
 
 - [关于我](about.md)
 - [联系](contact.md)
 
-## Site Setup
+## 站点设置
 
-### Static Webserver
-Upload these template files to any static web server. The file `.nojekyll` is only required if hosting the site on GitHub Pages and otherwise can be removed.
+### 静态网页服务器
+将这些模板文件上传至任何静态网络服务器。若不在 GitHub Pages 上托管网站，则.nojekyll 文件可移除，仅在此情况下为必需。
 
 ### GitHub Pages
 
-#### Hosting Site
+#### 托管网站
+要在 GitHub Pages 上托管此模板，请执行以下操作：
 
-To host this template on GitHub Pages do the following:  
+1. 如果尚未登录，请先登录 GitHub。
+2. 点击此 GitHub 仓库右上角的 **使用此模板** 按钮，然后选择 **创建新仓库**。
+3. 为你的新仓库输入一个名称，然后点击 **创建仓库** 按钮。
+4. 新仓库创建后，进入 **设置**，在左侧边栏中选择 **Pages**，在 **Branch** 下选择 **main**，然后点击 **保存** 按钮。
+5. 稍等一两分钟，然后刷新相同的页面 —— 一旦您的站点准备就绪，屏幕顶部将显示一条消息，同时附带站点链接和一个 **访问站点** 按钮。
 
-1. Log into GitHub if you have not done so already
-2. Tap the **Use this template** button in the upper-right of this GitHub Repository and choose **Create a new repository**
-3. Enter a name for your new Repository and then tap the **Create repository** button
-4. Once your new Repostitory is created go to **Settings**, then select **Pages** from the left-hand sidebar, and under **Branch** choose **main** and then tap the **Save** button
-5. Wait a minute or two and refresh the same **Pages** page - once your site is ready a message will be displayed at the top of the screen along with a site link and a **Visit site** button
+#### 编辑内容
+如何在 GitHub Pages 上编辑你的新 Docsify 网站内容？查看你想要编辑的 Markdown 页面（例如，README.md），点击铅笔图标，然后通过点击绿色的 **提交更改...** 按钮保存任何修改。短短几分钟内，Docsify 网站就会自动更新以反映这些更改。
 
-#### Editing Content
+### 本地查看
+在仓库文件夹中运行 `npx serve .`（适用于 Node.js 用户）或 `python -m http.server 8000`（适用于 Python 用户），以在本地启动服务。
 
-How about editing the content of your new Docsify site on GitHub Pages? View the Markdown page you want to edit (for example, **README.md**) and tap the **Pencil Icon**, then save any changes by tapping the green **Commit changes...** button. In just a few moments the Docsify site will be automatically updated to reflect those changes.
-
-### Viewing Locally 
-Run `npx serve .` (Node.js users) or `python -m http.server 8000` (Python users) in the repo folder to serve run locally.
-
-## Docsify Documentation
-
-To learn more about using Docsify, visit https://docsify.js.org.
+## Docsify 文档
+要了解更多关于使用 Docsify 的信息，请访问 https://docsify.js.org。
