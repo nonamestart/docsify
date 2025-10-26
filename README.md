@@ -1,6 +1,8 @@
-# Docsify Template
+# 欢迎来我的站点！
+这是一个测试页面。66
 
-> A simple [Docsify](https://github.com/docsifyjs/docsify/) template for creating Markdown-based documentation sites, with no build process required.
+- [关于我](about.md)
+- [联系](contact.md)
 
 ## Site Setup
 
